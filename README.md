@@ -1,8 +1,8 @@
 # Focusrite Discord Fix
 
-I got tired of being told that I sounded like a robot and going into task manager every time my computer went into sleep mode. I'd love for this to be useful to people other than myself.
+I got tired of being told that I sounded like a robot and going into task manager every time my computer went into sleep mode. 
 
-This utility resolves a common audio issue that occurs when using certain Focusrite audio interfaces with Discord (**specifically the Focusrite Scarlet 2i2 3rd Gen**). Users may experience poor and robotic voice transmission due to the `audiodg.exe` process running across multiple processor cores. This program automates the solution by setting the processor affinity of `audiodg.exe` to a single core, ensuring clear audio transmission.
+This utility resolves an audio issue that occurs when using certain Focusrite audio interfaces with Discord (**specifically the Focusrite Scarlet 2i2 3rd Gen**). Users may experience poor and robotic voice transmission due to the `audiodg.exe` process running across multiple processor cores. This program automates the solution by setting the processor affinity of `audiodg.exe` to a single core, ensuring clear audio transmission.
 
 ## Description
 
